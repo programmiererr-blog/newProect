@@ -11,3 +11,18 @@ a{
     text-transform: uppercase;
     font-size: 20px;
 }
+img{
+    height: 400px;
+    width: 300px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    line-height: 5px;
+    background-color: rgba(197, 197, 197, 0.192);
+    
+}
