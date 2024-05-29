@@ -14,6 +14,8 @@ a{
 img{
     height: 400px;
     width: 300px;
+    filter: contrast(.5);
+    filter: blur(.9);
 }
 .section1{
     display: flex;
@@ -24,5 +26,6 @@ img{
     width: 300px;
     line-height: 5px;
     background-color: rgba(197, 197, 197, 0.192);
+    padding: 20px;
     
 }

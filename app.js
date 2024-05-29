@@ -1,11 +1,17 @@
 const navbar={
-    logo:"LogoNav",
-    home:"home",
-    about:"about",
-    contact:"contact",
-    login:"login",
-    signup:"signup",
-    logout:"logout"
+    logo:"Jadoo",
+    home:"desitnations",
+    about:"hotel",
+    contact:"flights",
+    login:"bookings",
+    signup:"login",
+    logout:"sign up",
+    lang:{
+        en:"ENG",
+        ru:"RUS",
+        uz:"UZB"
+    }
+
     
 }
 baza1={
@@ -31,6 +37,9 @@ const logs = document.querySelector('.logs'),
    <a href="#">${navbar.login}</a>
    <a href="#">${navbar.signup}</a>
    <a href="#">${navbar.logout}</a>
+   <select><option>${navbar.lang.en}</option>
+   <option>${navbar.lang.ru}</option>
+   <option>${navbar.lang.uz}</option></select>
    
    `
 
