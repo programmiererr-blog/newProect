@@ -13,22 +13,23 @@ const navbar={
     }
 
     
-}
-baza1={
-    img1:'jpg/bir.jpg',
-    name:"Ali Alimov",
-    surname:"@alimardon",
-    email:"alimardon@gamil.com",
-    phoneNomber:"(77) 777 99 88",
-    cytiy:"Tashkent"
-}
+};
+const section_1={
+    title:"Best Destinations around the world",
+    subtitle:"Travel, enjoy <br> and live a new <br> and full life",
+    discription:"Built Wicket longer admire do barton vanity itself do in it. <br> Preferred to sportsmen it engrossed listening. Park gate <br> sell they west hard for the.",
+    button:"Find out more",
+    button2svg:"./jpg/play.png",
+    button2p:"Play Demo"
+} 
 
 const logs = document.querySelector('.logs'),
     buttons = document.querySelector('.buttons'),
     section1 = document.querySelector('.section1');
 
+
    logs.innerHTML=`
-   <a href="#">${navbar.logo}</a>
+   <a href="#" id="logos">${navbar.logo}</a>
    `
    buttons.innerHTML=`
    <a href="#">${navbar.home}</a>
@@ -36,20 +37,26 @@ const logs = document.querySelector('.logs'),
    <a href="#">${navbar.contact}</a>
    <a href="#">${navbar.login}</a>
    <a href="#">${navbar.signup}</a>
-   <a href="#">${navbar.logout}</a>
+   <a href="#" id="signup">${navbar.logout}</a>
    <select><option>${navbar.lang.en}</option>
    <option>${navbar.lang.ru}</option>
    <option>${navbar.lang.uz}</option></select>
    
    `
+section1.innerHTML=`
 
-   section1.innerHTML=`
-   <img src="${baza1.img1}" alt="About">
-   <h1>${baza1.name}</h1>
-   <h2>${baza1.surname}</h2>
-   <p>${baza1.email}</p>
-   <p>${baza1.phoneNomber}</p>  
-   <p>${baza1.cytiy}</p>
+   <h6>${section_1.title}</h6>
+   <h1>${section_1.subtitle}</h1>
+   <p>${section_1.discription}</p>
+    <div id="btns">
+   <a href="#" id="btn1">${section_1.button}</a>
+   <div id="btn2">
+   <img src="${section_1.button2svg}" alt="">
+   <a href="#">${section_1.button2p}</a>
+   </div>
+   </div>
+
+
+
+`
    
-   
-   `

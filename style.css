@@ -1,31 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 40px 80px;
+    
     
 }
-a{
+.navbar a{
     text-decoration: none;
-    margin: 10px;
-    text-transform: uppercase;
-    font-size: 20px;
+    margin: 28px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: arial;
+    color: rgb(63, 62, 62);
+    font-weight: 600;
 }
-img{
-    height: 400px;
-    width: 300px;
-    filter: contrast(.5);
-    filter: blur(.9);
+.logs #logos{
+    font-size: 30px;
+    font-family: arial;
+    color: black;
+    font-weight: 800;
+}
+ 
+#frist{
+     background: url('jpg/gb.png');
+     background-size: 100%;
+     background-repeat: no-repeat; 
+     line-height: 10px;
+          
+   
+  
+     
+    
+}
+#signup{
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+option{
+    background-color: transparent;
+}
+select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
 }
 .section1{
+    padding: 20px 100px;
+    line-height: 10px;
+}
+
+.section1 h6{
+    color: chocolate;
+    font-size: 22px;
+    font-family: arial;
+    line-height: 10px;
+    position: absolute;
+    margin-top: 60px;
+     
+}
+
+.section1 h1{
+    font-weight: 600;
+    color: #1e3f6d;
+    font-size: 80px;
+    line-height: 70px;
+    margin-top: 85px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section1 p{
+    font-size: 20px;
+    font-family: arial;
+    line-height: 25px;
+    margin-top: -60px;
+    position: absolute;
+
+}
+#btns{
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 500px;
+    position: absolute;
+
+    
+}
+#btn1 {
+text-decoration: none;
+border: none;
+padding: 20px 40px;
+background-color: #F1A501;
+border-radius: 8px;
+color: #FFF;
+font-family: arial;
+}
+#btn2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 150px;
+    width: 200px;
+    text-decoration: none;
+     
+}
+#btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 25px;
+     
+    
+}
+#btn2>img{
+    display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    width: 300px;
-    line-height: 5px;
-    background-color: rgba(197, 197, 197, 0.192);
-    padding: 20px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+
     
 }
