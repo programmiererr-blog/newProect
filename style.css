@@ -147,6 +147,10 @@ font-family: arial;
     
 }
 #sec2Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 100%;
     font-family: poppins;
     text-align: center;
@@ -157,6 +161,10 @@ font-family: arial;
     margin-top: -30px;
 }
 #sec2Subitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 100%;
     text-align: center;
     font-weight: 600;
@@ -180,3 +188,123 @@ font-family: arial;
     width: 10px;
     height: auto;
 }
+.title{
+    color: #172b47;
+    font-family: poppins;
+    font-weight: 600;
+}
+.discription{
+    color: #6d6d6e;
+    font-weight: 500;
+    font-family: poppins;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('jpg/sec3bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+    margin-top: 100px;
+}
+#sec3Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: poppins;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b2b2c;
+    position: absolute;
+    margin-top: -750px;
+    text-transform: uppercase;
+}
+#sec3Subitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Volkhov;
+    color: #1e3f6d;
+    position: absolute;
+    margin-top: -600px;
+}
+
+.section3All{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+     
+}
+ .cardimg{
+    width: 450px;
+    height: 500px;
+     
+ }
+ .card img{
+    width: 400px;
+    height: 500px;
+     
+     
+ }
+ #cards6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    
+ }
+ .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 20px;
+     
+}
+ .titleS3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    color: #6d6d6e;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: poppins;
+    
+    
+    margin-top: -120px;
+    margin-left: -15px;
+ }
+ .discription3 img{
+    width: 13px;
+    height: 13px;
+ }
+ .discription3 {
+    width: 95%;
+    text-align: left;
+    font-size: 13px;
+     
+    margin-top: -8px;
+    margin-left: -10px;
+    color: #6d6d6e;
+    font-weight: 500;
+    font-family: poppins;
+    
+ }
+ .shadow{
+    background-color: rgb(32, 119, 196);
+    box-shadow: 0px 0px 15px rgb(77, 76, 76);
+ }
